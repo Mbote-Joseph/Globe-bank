@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GBI - <?php echo $page_title ?></title>
-    <link rel="stylesheet" href="../stylesheet/staff.css" media="all">
+    <link rel="stylesheet" href="<?php echo url_for('/stylesheet/staff.css') ?>" media="all">
 </head>
 <body>
     <header>
@@ -21,6 +21,6 @@
 
     <navigation>
     <ul>
-    <li><a href="index.php">Menu</a></li>
+    <li><a href=" <?php echo url_for('/staff/index.php') ?>">Menu</a></li>
     </ul>
     </navigation>
